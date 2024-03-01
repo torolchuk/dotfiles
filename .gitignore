@@ -1,6 +1,7 @@
 PureRef.ini
-*/
+*
 
+!nvim/
 !nvim/**
 !.gitignore
 !README.md
