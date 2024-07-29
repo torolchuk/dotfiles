@@ -4,9 +4,9 @@ return {
   config = function()
     local treesitterConfig = require("nvim-treesitter.configs")
     treesitterConfig.setup({
-      ensure_installed = { "lua", "javascript", "json", "typescript", "odin" },
+      ensure_installed = { "lua", "javascript", "json", "typescript", "odin", "svelte" },
       highlight = { enable = true },
-      indent = { enable = true },
+      -- indent = { enable = true },
     })
   end
 }

@@ -4,6 +4,7 @@ lang_list = {
   "tsserver",
   "ols",
   "grammarly",
+  "angularls",
 }
 
 return {
@@ -44,6 +45,7 @@ return {
       vim.keymap.set('n', "K", vim.lsp.buf.hover, {})
       vim.keymap.set('n', "gd", vim.lsp.buf.definition, {})
       vim.keymap.set({'n', 'v'}, "<leader>ca", vim.lsp.buf.code_action, {})
+      vim.keymap.set('n', "ge", vim.diagnostic.open_float, {})
     end
   }
 }
